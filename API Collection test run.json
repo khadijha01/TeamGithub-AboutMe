@@ -1,0 +1,239 @@
+{
+	"id": "3e628b23-0892-4f49-b9f7-c877ab296cef",
+	"name": "API Collection",
+	"timestamp": "2022-11-24T23:04:49.068Z",
+	"collection_id": "24245481-732e8492-0c80-4cde-9b92-11c80e3cc82f",
+	"folder_id": 0,
+	"environment_id": "24245481-c6c9425e-9f93-4a28-be76-928488facb43",
+	"totalPass": 18,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f0034175-f68a-4a9d-926a-c77ceda94ed5",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 1290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name have created string": true,
+				"Body matches string": true,
+				"apiVersion equals 6.3.8.0": true,
+				"title equals Fusio": true,
+				"paymentCurrency equals EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have created string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"apiVersion equals 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title equals Fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"paymentCurrency equals EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1290
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name have created string": true,
+					"Body matches string": true,
+					"apiVersion equals 6.3.8.0": true,
+					"title equals Fusio": true,
+					"paymentCurrency equals EUR": true
+				}
+			]
+		},
+		{
+			"id": "c05f3f81-2d04-4656-ba2b-17233456042d",
+			"name": "Place a book order",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 1182,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code should be 201": true,
+				"Status code name have an ok string": true,
+				"created equals true": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have an ok string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"created equals true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1182
+			],
+			"allTests": [
+				{
+					"Status code should be 201": true,
+					"Status code name have an ok string": true,
+					"created equals true": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "28f71ac0-87f8-4504-842f-d99fc4d85ced",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				457
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name have OK string": true
+				}
+			]
+		},
+		{
+			"id": "fdbb8ab8-fc71-4185-9d73-fd5dadb89b28",
+			"name": "Get an order",
+			"url": "https://simple-books-api.glitch.me/orders/sXdHXpUdTLJrtfG7_MebC",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 201": true,
+				"Status code name have created string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have created string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"Status code should be 201": true,
+					"Status code name have created string": true
+				}
+			]
+		},
+		{
+			"id": "995f5197-9b53-437d-9e21-d1c869d93c76",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/sXdHXpUdTLJrtfG7_MebC",
+			"time": 768,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Status code name has string OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				768
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Status code name has string OK": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3940,
+	"collection": {
+		"requests": [
+			{
+				"id": "f0034175-f68a-4a9d-926a-c77ceda94ed5",
+				"method": "GET"
+			},
+			{
+				"id": "c05f3f81-2d04-4656-ba2b-17233456042d",
+				"method": "POST"
+			},
+			{
+				"id": "28f71ac0-87f8-4504-842f-d99fc4d85ced",
+				"method": "GET"
+			},
+			{
+				"id": "fdbb8ab8-fc71-4185-9d73-fd5dadb89b28",
+				"method": "GET"
+			},
+			{
+				"id": "995f5197-9b53-437d-9e21-d1c869d93c76",
+				"method": "DELETE"
+			}
+		]
+	}
+}
